@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- Mater CSS -->
+    <link rel="stylesheet" href="css/master.css"/>
+
+    <!-- Joint CSS -->
+    <link rel="stylesheet" href="node_modules/jointjs/dist/joint.min.css">
+
+    <!-- JointJS Dependencies -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/lodash/lodash.min.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <!-- JointJS -->
+    <script src="node_modules/jointjs/dist/joint.min.js"></script>
+</head>
+
+<body>
+    <div class="container content_page">
+        <section>
+
+            <div id="paper"></div>
+            <div id="stencil"> </div>
+
+            <div class="convertJson">
+                <button type="button" class="btn btn-primary" onclick="btnSave()" >Save</button>
+                <button type="button" class="btn btn-danger" onclick="btnDelete()" >Delete</button>
+                <div class="formBox">
+                    <label for="configJSON">JSON format:</label>
+                    <textarea class="form-control" id="configJSON" rows="6"></textarea>
+                </div>
+                <button type="button" class="btn btn-success" onclick="btnConvert()" >Convert To Graph</button>
+            </div>
+
+        </section>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>

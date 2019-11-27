@@ -1,0 +1,80 @@
+/**
+ * ========================================
+ * GENERAL STYLES
+ * ========================================
+ */
+
+html {
+    height: 100% !important;
+}
+
+body {
+    height: 100%;
+    font-family: "Lato", "Serif";
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #fff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.content_page{
+    margin: 20px 100px;
+}
+
+#paper{
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+#stencil{
+    background-color: #BEC9C0;
+    border: 1px solid #333;
+    height: 90px!important;
+}
+
+.convertJson{
+    margin-top: 5px;
+}
+
+.convertJson button{
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.formBox label{
+    display: block;
+
+}
+.formBox textarea{
+    width: 100%;
+    resize:none
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+/* port styling */
+.available-magnet {
+    fill: yellow;
+}
+
+/* element styling */
+.available-cell rect {
+    stroke-dasharray: 5, 2;
+}
