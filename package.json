@@ -1,0 +1,24 @@
+{
+  "name": "project-jointJs",
+  "version": "1.0.0",
+  "description": "This is a simple web project with jointJs`Demo`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samahajizadeh/project-jointJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samahajizadeh/project-jointJs/issues"
+  },
+  "homepage": "https://github.com/samahajizadeh/project-jointJs#readme",
+  "dependencies": {
+    "jointjs": "^3.1.1"
+  }
+}
